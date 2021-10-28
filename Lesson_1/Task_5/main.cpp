@@ -4,18 +4,17 @@ using namespace std;
 int main()
 {
 
-    double masa;
-    double Masa;
-    double years;
+    double mass;
+    double years=300;
+    double petrol;
 
     cout<<"Enter the mass of the ship  ";
-    cin>>masa;
+    cin>>mass;
 
-    Masa=masa/3-2;
+    mass=mass/3-2;
 
-    years=Masa*300;
-    cout<<"need "<<years;
-    cout<<" liters of petrol";
+    petrol=mass*years;
+    cout<<"need "<<petrol<<" liters of petrol";
 
     return 0;
 }

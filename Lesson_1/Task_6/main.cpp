@@ -5,8 +5,9 @@ using namespace std;
 int star;
 int main()
 {
-    cout<<"enter the number ";
+    cout<<"enter the mask: ";
     cin>>star;
+    cout<<"number of adress: ";
     switch (star)
     {
         case (255):
@@ -38,5 +39,6 @@ int main()
             break;
 
     }
+
 
 }

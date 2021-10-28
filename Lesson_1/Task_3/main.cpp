@@ -4,9 +4,9 @@ int main()
 {
     int a=50;
     int b=20;
-    int c;
+    int c=a;
 
-    c=a;
+
     a=b;
     b=c;
 
