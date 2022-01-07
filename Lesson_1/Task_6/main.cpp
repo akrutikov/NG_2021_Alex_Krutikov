@@ -2,14 +2,11 @@
 
 using namespace std;
 
-
 int main()
 {
     int star;
-
     cout<<"enter the mask: "; cin>>star;
     cout<<"number of adress: ";
-
     switch (star)
     {
         case (255): cout<<"1"<<endl; break;
